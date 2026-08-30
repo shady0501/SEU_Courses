@@ -1,0 +1,9 @@
+(INT,int)
+(ID,i)
+(EQUAL,=)
+(T_DOUBLE,5.1)
+(COLON,;)
+(DOUBLE,double)
+(ID,y)
+(EQUAL,=)
+Floating point type error:1.11.

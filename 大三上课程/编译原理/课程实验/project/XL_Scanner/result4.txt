@@ -1,0 +1,11 @@
+(INT,int)
+(ID,i)
+(EQUAL,=)
+(T_INT,5)
+(COLON,;)
+(DOUBLE,double)
+(ID,y)
+(EQUAL,=)
+(T_DOUBLE,1.1)
+(COLON,;)
+Unrecognizable symbols:_

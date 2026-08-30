@@ -1,0 +1,54 @@
+ACTION: if to state 2
+ACTION: ( to state 6
+ACTION: i to state 12
+Reduce using 6: i -> E
+GOTO: E to state 11
+ACTION: ) to state 16
+ACTION: i to state 5
+Reduce using 6: i -> E
+GOTO: E to state 23
+ACTION: + to state 9
+ACTION: i to state 5
+Reduce using 6: i -> E
+GOTO: E to state 14
+Reduce using 4: E + E -> E
+GOTO: E to state 23
+ACTION: ; to state 30
+Reduce using 3: E; -> S
+GOTO: S to state 20
+ACTION: else to state 27
+ACTION: while to state 3
+ACTION: ( to state 7
+ACTION: i to state 12
+Reduce using 6: i -> E
+GOTO: E to state 13
+ACTION: * to state 18
+ACTION: i to state 12
+Reduce using 6: i -> E
+GOTO: E to state 25
+Reduce using 5: E * E -> E
+GOTO: E to state 13
+ACTION: ) to state 19
+ACTION: i to state 5
+Reduce using 6: i -> E
+GOTO: E to state 4
+ACTION: + to state 9
+ACTION: i to state 5
+Reduce using 6: i -> E
+GOTO: E to state 14
+ACTION: * to state 10
+ACTION: i to state 5
+Reduce using 6: i -> E
+GOTO: E to state 15
+Reduce using 5: E * E -> E
+GOTO: E to state 14
+Reduce using 4: E + E -> E
+GOTO: E to state 4
+ACTION: ; to state 8
+Reduce using 3: E; -> S
+GOTO: S to state 26
+Reduce using 2: while (E) S -> S
+GOTO: S to state 31
+Reduce using 1: if (E) S else S -> S
+GOTO: S to state 1
+Success.

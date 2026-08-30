@@ -1,0 +1,5 @@
+if (i)
+    i + i; 
+else
+    while (i * i)
+        i + i * i;

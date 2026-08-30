@@ -1,0 +1,4 @@
+(INT,int)
+(ID,i)
+(EQUAL,=)
+Floating point type error:5.;

@@ -1,0 +1,3 @@
+int i=5;
+double y=1.1;
+_b=i;

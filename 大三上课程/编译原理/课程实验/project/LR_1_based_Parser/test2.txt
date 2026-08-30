@@ -1,0 +1,4 @@
+if (i)
+    i + i; 
+else
+    while @i
