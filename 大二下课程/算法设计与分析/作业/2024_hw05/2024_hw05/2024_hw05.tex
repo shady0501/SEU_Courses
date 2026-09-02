@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.0cm,bottom=2.5cm}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsthm}
+\usepackage{amsfonts}
+\usepackage[longend,ruled,linesnumbered]{algorithm2e}
+\usepackage{fancyhdr}
+\usepackage{ctex}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+\title{
+  {\heiti《算法分析与设计》第 $5$ 次作业
+    \footnote{要求：1、分析题请用书面化语言给出详细分析过程。}
+    }
+}
+\date{}
+
+\author{
+姓名：\underline{你的名字}~~~~~~
+学号：\underline{你的学号}~~~~~~
+成绩：\underline{~~~~~~~~~~~~~~~~~~}
+}
+
+\maketitle
+
+\noindent
+\section*{\bf \color{red}{算法分析题}}
+\vspace{10pt}
+
+\noindent
+{\bf 题目1：}用后进先出的$D$-搜索法找出$n$-皇后问题的一个解。(要求给出分析和伪代码)
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\vspace{10pt}
+\noindent
+{\bf 题目2：}用回溯法设计一个给图 $G$($V$, $E$) 着色的算法。我们假定图是用邻接矩阵表示，而可用颜色的集合是 $C = \{1, 2, ..., m\}$，$m$ 可视为常数。我们要求把所有合法的着色全部输出。
+\begin{enumerate}
+	\item[(a)]  用子程序实现绑定函数 $Valid(k, c)$，用来检查树中 $(k-1)$ 层的一个点  $(x[1], x[2], ..., x[k-1])$ 的一个儿子。\\
+	提示：假设图的顶点集合是 $V = \{v_1, v_2, ..., v_n\}$，邻接矩阵是$A$，$A[i, j] = 1$ 表示顶点 $v_i$ 和 $v_j$ 之间有边, $1 \leq i$ ,  $j \leq n$。我们用一个 $n$-元组 ($x[1], x[2], ..., x[n]$) 表示对这 $n$ 个顶点的着色，$x[i]$ 是对顶点 $v_i$ 的着色，$1 \leq i \leq n$。
+	\item[(b)]  写出回溯算法的伪码。（需先写回溯法的递归形式函数供后面主程序调用）
+\end{enumerate}
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\vspace{10pt}
+\noindent
+{\bf 题目3：}用最大价值先出的分枝限界法找一个图的最大团。我们假定图$G$是用邻接矩阵表示的。(要求给出分析和伪代码)
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\end{document}

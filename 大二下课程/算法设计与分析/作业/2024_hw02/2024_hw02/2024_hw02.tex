@@ -1,0 +1,69 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.0cm,bottom=2.5cm}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsthm}
+\usepackage{amsfonts}
+\usepackage[longend,ruled,linesnumbered]{algorithm2e}
+\usepackage{fancyhdr}
+\usepackage{ctex}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{
+  {\heiti《算法分析与设计》第 $2$ 次作业
+    \footnote{要求：1、分析题请用书面化语言给出详细分析过程。}
+    }
+}
+\date{}
+
+\author{
+姓名：\underline{你的名字}~~~~~~
+学号：\underline{你的学号}~~~~~~
+成绩：\underline{~~~~~~~~~~~~~~~~~~}
+}
+
+\maketitle
+
+\noindent
+\section*{\bf \color{red}{算法分析题}}
+
+\noindent
+{\bf 题目1：}求以下递推关系。
+\begin{enumerate}
+  \item[(1)]  $T(n)=4T(n/2)+n^2\log_{2}{n}$
+  \item[(2)]  $T(n)=3T(n/9)+6\sqrt{n}$
+  \item[(3)]  $T(n)=2T(\sqrt{n})+\log_{2}{n}$
+  \item[(4)]  $T(n)=n+3T(n/4)$
+\end{enumerate}
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+
+\vspace{10pt}
+\noindent
+{\bf 题目2：}用替换法获得以下递推关系的一个渐近上界。
+\begin{enumerate}
+	\item[(1)]  $T(n)=T(n/2)+2T(n/4)$
+\end{enumerate}
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\section*{\bf \color{red}{算法设计题}}
+\vspace{10pt}
+\noindent
+{\bf 题目3：}假设米哈游公司在过去$n$天的股票价格记录在数组$A[1..n]$中，我们希望找出两天的价格，其价格下跌最大。即用分治法设计一个算法找到$A[i]$和$A[j]$$(i\leq j)$ 使得$M=A[i]-A[j]$的值最大，$n\geq1$，并分析所需的比较次数（请写出关键思路或伪代码）。
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+
+\end{document} 

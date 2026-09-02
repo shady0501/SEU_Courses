@@ -1,0 +1,60 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.0cm,bottom=2.5cm}
+\usepackage[english]{babel}
+\usepackage{amsmath,amsthm}
+\usepackage{amsfonts}
+\usepackage[longend,ruled,linesnumbered]{algorithm2e}
+\usepackage{fancyhdr}
+\usepackage{ctex}
+\usepackage{array}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+\title{
+  {\heiti《算法分析与设计》第 $4$ 次作业
+    \footnote{要求：1、分析题请用书面化语言给出详细分析过程。}
+    }
+}
+\date{}
+
+\author{
+姓名：\underline{你的名字}~~~~~~
+学号：\underline{你的学号}~~~~~~
+成绩：\underline{~~~~~~~~~~~~~~~~~~}
+}
+
+\maketitle
+
+\noindent
+\section*{\bf \color{red}{算法分析题}}
+\vspace{10pt}
+
+\noindent
+{\bf 题目1：}假设有$n$个活动$a_1,a_2,\dots , a_n$须要使用焦廷标馆。第$i$个活动$(1\leq i\leq n)$ 须要连续使用$t_i$时间。这些活动没有定死的开始或终止时刻，但都希望从$t = 0$开始。如果在时刻$t > 0$开始，那么必须要付出额外的开销。这个开销与开始时刻$t$成正比。为简单起见，就把开始时刻$t$作为开销。请设计一贪心算法来找到一个最佳调度使总的开销最小。也就是说，如果活动$a_i$ 开始时刻是$s_i$，算法要找到一个两两兼容的调度使$\sum_{i=1}^{n} s_i$最少，即找到活动的最佳开始时间。 请证明算法正确性和分析复杂度。
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\vspace{10pt}
+\noindent
+{\bf 题目2：}假设一长途汽车线路上有$n$个站点并从$1$开始顺序编号为$1,2,...,n$，其中起点站为$1$，终点站为$n$。旅客可以从任一个站$i$上车，$1 \leq i \leq n-1$，到下面任一站$j$下车，$i < j \leq n$。假设已知$p(i,j)$为需要在站$i$上车，在站$j$下车的旅客人数$(1 \leq i < j \leq n)$。又假设每辆公共汽车在每个站都停靠，并可载客$30$人。请设计一个$O(n^2)$算法来确定至少需要多少辆汽车可以满足所有旅客需要。
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\vspace{10pt}
+\noindent
+{\bf 题目3：}假设我们开一部卡车从提瓦特大陆$A$到海拉鲁大陆$B$，沿路经过一些采原石场。为方便起见，假定一共有$n$个采原石场，顺序编号为$1$到$n$，其中采原石场$A$为第$1$号，采原石场$B$为第$n$号。在每个采原石场$i$，$1 \leq i \leq n$，我们可以买原石，价格已知为$B[i]$ (元/吨)，也可以卖原石，卖价为$S[i]$。我们希望在某个采原石场$i$买原石，然后在某采原石场$j$ 卖掉，$j \geq i$，使得赚的钱最多，即$M = S[j] - B[i]$最大。请设计一个$O(n)$的贪心算法找出这两个采原石场$i$和$j$并报告这个最大差价$M = S[j] - B[i]$。我们规定，车子只能向前开，不可以往回开。你可以在同一采原石场买和卖，但只能买一次和卖一次。如果这个最大差价是负数也给予报告，说明最少会亏多少。
+
+\vspace{5pt}
+\noindent
+{\bf 答：}
+
+\end{document}
