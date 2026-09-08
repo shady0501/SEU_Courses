@@ -94,6 +94,12 @@
 | [mall4cloud目录结构.md](<实验/实验一/mall4cloud目录结构.md>) | mall4cloud 工程目录和模块结构分析 |
 | [mall4j系统用例图.drawio](<实验/实验一/mall4j系统用例图.drawio>) | mall4j 系统用例图源文件 |
 
+#### 参考资料
+
+- [mall4j](https://gitee.com/gz-yami/mall4j)：单体商城系统参考项目。
+- [mall4cloud](https://gitee.com/gz-yami_admin/mall4cloud)：微服务商城系统参考项目。
+- [mall4j 部署指南](https://blog.csdn.net/yueerba126/article/details/134490057)：mall4j 部署过程参考。
+
 实验一成绩：
 
 ![实验一成绩](<实验/实验一/SA实验一成绩.png>)
@@ -122,6 +128,11 @@
 | [KWIC_Blackboard.cpp](<实验/实验三/KWIC_Blackboard.cpp>) | 黑板风格实现 |
 | [KWIC_platformAndPlugin.cpp](<实验/实验三/KWIC_platformAndPlugin.cpp>) | 平台—插件风格实现 |
 
+#### 参考资料
+
+- [SA2](https://github.com/J1uT1an/SA2)：经典软件体系结构风格实验参考。
+- [KWIC 检索系统示例](https://www.cnblogs.com/qhong/p/7856157.html)：KWIC 设计与实现参考。
+
 ## 复习总结
 
 | 文件 | 说明 |
@@ -129,6 +140,10 @@
 | [软件体系结构复习（推荐）.pdf](<复习总结/软件体系结构复习（推荐）.pdf>) | 推荐的完整复习资料，按 Unit 汇总主要概念、方法和题型 |
 | [软件设计与体系结构复习.docx](<复习总结/软件设计与体系结构复习.docx>) | 可编辑的课程复习文档 |
 | [软件设计与体系结构复习.pdf](<复习总结/软件设计与体系结构复习.pdf>) | 对应的 PDF 复习版本，便于阅读和打印 |
+
+### 参考资料
+
+- [软件体系结构与风格复习](https://blog.csdn.net/lyhizjj/article/details/135366608)
 
 推荐复习资料给出的试卷结构为：选择题 20%、简答题 40%、综合分析题 40%。该信息来自现有复习资料，实际考试安排请以任课教师当学期通知为准。
 
